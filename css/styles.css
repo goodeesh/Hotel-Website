@@ -1,0 +1,51 @@
+#card {
+  border-radius: 10px;
+  background-color: aliceblue;
+  width: 100%;
+  text-align: left;
+  border-style: solid;
+  border-color: black;
+  font-size: large;
+  padding: 20px;
+}
+
+
+/* img {
+    border-radius: 50%;
+} */
+#profilphoto {
+  border-radius: 50%;
+}
+
+.accordion-item {
+  padding: 20px;
+  background-color: rgb(244, 238, 233);
+}
+
+.accordion {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  overflow: hidden
+}
+
+.accordion-button {
+  border-radius: 10px;
+  background-color: rgb(250, 235, 219);
+  text-align: left;
+  font-size: large;
+}
+
+.accordion-body {
+  border-radius: 10px;
+  background-color: rgb(244, 238, 233);
+  border-style: solid;
+  border-color: black;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, .125);
+  background-color: rgb(250, 235, 219);
+  color: black;
+}
